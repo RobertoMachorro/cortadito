@@ -1,0 +1,7 @@
+{
+  "semicolon": false,
+  "rules": {
+    "comma-dangle": 0,
+    "no-unused-vars": "warn"
+  }
+}

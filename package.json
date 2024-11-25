@@ -1,0 +1,26 @@
+{
+  "name": "cortadito",
+  "version": "1.0.0",
+  "description": "A small module that makes building WebApps and API services with Express quick.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RobertoMachorro/cortadito.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "api",
+    "web",
+    "http"
+  ],
+  "author": "Roberto Machorro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobertoMachorro/cortadito/issues"
+  },
+  "homepage": "https://github.com/RobertoMachorro/cortadito#readme"
+}

@@ -1,6 +1,6 @@
 {
   "name": "cortadito",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small module that makes building WebApps and API services with Express quick.",
   "main": "index.mjs",
   "type": "module",
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/RobertoMachorro/cortadito#readme",
   "dependencies": {
     "connect-redis": "^7.1.1",
-    "debug": "^4.3.7",
+    "debug": "^4.4.0",
     "ejs": "^3.1.10",
     "express": "^5.0.1",
     "express-session": "^1.18.1",

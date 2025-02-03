@@ -129,6 +129,8 @@ app.addMiddleware((error, request, response, next) => {
 })
 ```
 
+A sample repo can be cloned or templated with the code above at: [cortadito-sample](https://github.com/RobertoMachorro/cortadito-sample).
+
 ## Docker Support
 
 Add the following file to the root folder and _docker build_:

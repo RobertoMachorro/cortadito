@@ -1,6 +1,6 @@
 {
   "name": "cortadito",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small module that makes building WebApps and API services with Express quick.",
   "main": "index.mjs",
   "type": "module",

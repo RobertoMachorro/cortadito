@@ -54,11 +54,13 @@ export default function sample(controller) {
 	})
 
 	controller.get('/set', (request, response) => {
+		// Requires session* options to be setup
 		request.session.timestamp = Date.now()
 		response.json({session: request.session})
 	})
 
 	controller.get('/get', (request, response) => {
+		// Requires session* options to be setup
 		response.json({session: request.session})
 	})
 }
@@ -71,12 +73,13 @@ This should be familiar to any Express user.
 ```javascript
 #!/usr/bin/env node
 
-import process from 'node:process'
+import {env} from 'node:process'
 import Cortadito from 'cortadito'
+// Controllers
 import sample from './application/controllers/sample.mjs'
 
 const options = {
-	listenPort: process.env.PORT // Mandatory
+	listenPort: env.PORT // Mandatory
 }
 
 const app = new Cortadito()
